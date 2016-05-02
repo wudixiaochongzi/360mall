@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>360商城</title>
-    <link rel="stylesheet" href="css/index.min.css">
     <link rel="stylesheet" href="css/public.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.min.css">
     <link rel="stylesheet" href="css/swiper.css">
     <script src="js/swiper.js"></script>
     <script src="js/index.js"></script>
@@ -31,44 +32,46 @@
 <!--顶部广告结束-->
 
 <!--banner-->
-    <div class="swiper-container banner">
-        <div class="swiper-wrapper banner-box">
-            <div class="swiper-slide">
-                <a href="#">
-                    <img src="images/banner1.png" alt="">
-                </a>
+    <div class="banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper banner-box">
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="images/banner1.png" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="images/banner2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="images/banner3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="images/banner4.png" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="images/banner5.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="images/banner6.jpg" alt="">
+                    </a>
+                </div>
             </div>
-            <div class="swiper-slide">
-                <a href="#">
-                    <img src="images/banner2.jpg" alt="">
-                </a>
-            </div>
-            <div class="swiper-slide">
-                <a href="#">
-                    <img src="images/banner3.jpg" alt="">
-                </a>
-            </div>
-            <div class="swiper-slide">
-                <a href="#">
-                    <img src="images/banner4.png" alt="">
-                </a>
-            </div>
-            <div class="swiper-slide">
-                <a href="#">
-                    <img src="images/banner5.jpg" alt="">
-                </a>
-            </div>
-            <div class="swiper-slide">
-                <a href="#">
-                    <img src="images/banner6.jpg" alt="">
-                </a>
-            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
     </div>
 <!--banner结束-->
 
@@ -171,7 +174,148 @@
             </div>
             <a href="#" class="session" style="">热销酷品限时秒</a>
         </div>
-        <div class="buy-content"></div>
+        <div class="buy-content">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <ul class="star-plist clf">
+                            <li>
+                                <a href="#">
+                                    <div class="star-img">
+                                        <img src="images/pimg1.jpg" alt="">
+                                        <span class="sellout">已抢光</span>
+                                    </div>
+                                    <div class="start-title">奇酷青春版PC保护壳白色</div>
+                                    <div class="start-price">
+                                        <span class="pdot">￥</span>29
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="star-img">
+                                        <img src="images/pimg2.jpg" alt="">
+                                        <span class="sellout">已抢光</span>
+                                    </div>
+                                    <div class="start-title">奇酷青春版PC保护壳白色</div>
+                                    <div class="start-price">
+                                        <span class="pdot">￥</span>29
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="star-img">
+                                        <img src="images/pimg3.jpg" alt="">
+                                        <span class="sellout">已抢光</span>
+                                    </div>
+                                    <div class="start-title">奇酷青春版PC保护壳白色</div>
+                                    <div class="start-price">
+                                        <span class="pdot">￥</span>29
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul class="star-plist clf">
+                            <li>
+                                <a href="#">
+                                    <div class="star-img">
+                                        <img src="images/pimg4.jpg" alt="">
+                                        <span class="sellout">已抢光</span>
+                                    </div>
+                                    <div class="start-title">奇酷青春版PC保护壳白色</div>
+                                    <div class="start-price">
+                                        <span class="pdot">￥</span>29
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="star-img">
+                                        <img src="images/pimg5.jpg" alt="">
+                                        <span class="sellout">已抢光</span>
+                                    </div>
+                                    <div class="start-title">奇酷青春版PC保护壳白色</div>
+                                    <div class="start-price">
+                                        <span class="pdot">￥</span>29
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="star-img">
+                                        <img src="images/pimg6.jpg" alt="">
+                                        <span class="sellout">已抢光</span>
+                                    </div>
+                                    <div class="start-title">奇酷青春版PC保护壳白色</div>
+                                    <div class="start-price">
+                                        <span class="pdot">￥</span>29
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul class="star-plist clf">
+                            <li>
+                                <a href="#">
+                                    <div class="star-img">
+                                        <img src="images/pimg7.jpg" alt="">
+                                        <span class="sellout">已抢光</span>
+                                    </div>
+                                    <div class="start-title">奇酷青春版PC保护壳白色</div>
+                                    <div class="start-price">
+                                        <span class="pdot">￥</span>29
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="star-img">
+                                        <img src="images/pimg8.jpg" alt="">
+                                        <span class="sellout">已抢光</span>
+                                    </div>
+                                    <div class="start-title">奇酷青春版PC保护壳白色</div>
+                                    <div class="start-price">
+                                        <span class="pdot">￥</span>29
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="star-img">
+                                        <img src="images/pimg9.png" alt="">
+                                        <span class="sellout">已抢光</span>
+                                    </div>
+                                    <div class="start-title">奇酷青春版PC保护壳白色</div>
+                                    <div class="start-price">
+                                        <span class="pdot">￥</span>29
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul class="star-plist clf">
+                            <li>
+                                <a href="#">
+                                    <div class="star-img">
+                                        <img src="images/pimg10.jpg" alt="">
+                                        <span class="sellout">已抢光</span>
+                                    </div>
+                                    <div class="start-title">奇酷青春版PC保护壳白色</div>
+                                    <div class="start-price">
+                                        <span class="pdot">￥</span>29
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 <!--掌上抢结束-->
 
@@ -312,5 +456,662 @@
         </ul>
     </div>
 <!--明星单品-->
+
+<!--新品上市-->
+    <div class="top-level">
+        <h2 class="floor-title">
+            <span>—</span>
+            新品上市
+            <span>—</span>
+        </h2>
+        <ul>
+            <li>
+                <a href="#">
+                    <div class="newImg">
+                        <img src="images/newimg1.jpg">
+                        <span class="price-r">￥149</span>
+                    </div>
+                    <strong class="ds-1">香港九猪便携多功能果汁杯</strong>
+                    <span class="ds-2">迷你全能榨汁杯 健康美味带着走 走到哪里榨到哪儿</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="newImg">
+                        <img src="images/newimg2.jpg">
+                        <span class="price-r">￥149</span>
+                    </div>
+                    <strong class="ds-1">香港九猪便携多功能果汁杯</strong>
+                    <span class="ds-2">迷你全能榨汁杯 健康美味带着走 走到哪里榨到哪儿</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="newImg">
+                        <img src="images/newimg3.jpg">
+                        <span class="price-r">￥149</span>
+                    </div>
+                    <strong class="ds-1">香港九猪便携多功能果汁杯</strong>
+                    <span class="ds-2">迷你全能榨汁杯 健康美味带着走 走到哪里榨到哪儿</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+<!--新品上市-->
+
+<!--手机-->
+    <div class="mobile">
+        <h2 class="floor-title">
+            <span>—</span>
+            手机
+            <span>—</span>
+        </h2>
+        <div class="floor-bigImg">
+            <a href="#">
+                <img src="images/bigimg1.jpg" alt="">
+            </a>
+        </div>
+        <div class="plist">
+            <ul class="star-plist clf">
+                <li>
+                    <a href="#">
+                        <div class="star-img">
+                            <img src="images/mobile1.jpg" alt="">
+                        </div>
+                        <div class="start-title">大神Note3全网通</div>
+                        <div class="product-norms">千元指纹智能手机</div>
+                        <div class="start-price">
+                            <span class="pdot">￥</span>999
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="star-img">
+                            <img src="images/mobile2.jpg" alt="">
+                        </div>
+                        <div class="start-title">大神Note3全网通</div>
+                        <div class="product-norms">千元指纹智能手机</div>
+                        <div class="start-price">
+                            <span class="pdot">￥</span>999
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="star-plist clf">
+                <li>
+                    <a href="#">
+                        <div class="star-img">
+                            <img src="images/mobile3.jpg" alt="">
+                        </div>
+                        <div class="start-title">大神Note3全网通</div>
+                        <div class="product-norms">千元指纹智能手机</div>
+                        <div class="start-price">
+                            <span class="pdot">￥</span>999
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="star-img">
+                            <img src="images/mobile4.jpg" alt="">
+                        </div>
+                        <div class="start-title">大神Note3全网通</div>
+                        <div class="product-norms">千元指纹智能手机</div>
+                        <div class="start-price">
+                            <span class="pdot">￥</span>999
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="star-plist clf">
+                <li>
+                    <a href="#">
+                        <div class="star-img">
+                            <img src="images/mobile5.jpg" alt="">
+                        </div>
+                        <div class="start-title">大神Note3全网通</div>
+                        <div class="product-norms">千元指纹智能手机</div>
+                        <div class="start-price">
+                            <span class="pdot">￥</span>999
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="star-img">
+                            <img src="images/mobile6.jpg" alt="">
+                        </div>
+                        <div class="start-title">大神Note3全网通</div>
+                        <div class="product-norms">千元指纹智能手机</div>
+                        <div class="start-price">
+                            <span class="pdot">￥</span>999
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!--手机-->
+
+<!--智能家庭-->
+<div class="mobile">
+    <h2 class="floor-title">
+        <span>—</span>
+        智能家庭
+        <span>—</span>
+    </h2>
+    <div class="floor-bigImg">
+        <a href="#">
+            <img src="images/bigimg2.jpg" alt="">
+        </a>
+    </div>
+    <div class="plist">
+        <ul class="star-plist clf">
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/znjt1.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/znjt2.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <ul class="star-plist clf">
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/znjt3.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/znjt4.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <ul class="star-plist clf">
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/znjt5.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/znjt6.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--智能家庭-->
+
+<!--智能车品-->
+<div class="mobile">
+    <h2 class="floor-title">
+        <span>—</span>
+        智能车品
+        <span>—</span>
+    </h2>
+    <div class="floor-bigImg">
+        <a href="#">
+            <img src="images/bigimg3.jpg" alt="">
+        </a>
+    </div>
+    <div class="plist">
+        <ul class="star-plist clf">
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/zncp1.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/zncp2.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <ul class="star-plist clf">
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/zncp3.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/zncp4.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <ul class="star-plist clf">
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/zncp5.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--智能车品-->
+
+<!--智能穿戴-->
+<div class="mobile">
+    <h2 class="floor-title">
+        <span>—</span>
+        智能穿戴
+        <span>—</span>
+    </h2>
+    <div class="floor-bigImg">
+        <a href="#">
+            <img src="images/bigimg3.jpg" alt="">
+        </a>
+    </div>
+    <div class="plist">
+        <ul class="star-plist clf">
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/zncd1.png" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/zncd2.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <ul class="star-plist clf">
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/zncd3.png" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/zncd4.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <ul class="star-plist clf">
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/zncd5.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/zncd6.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--智能穿戴-->
+
+<!--影音娱乐-->
+<div class="mobile">
+    <h2 class="floor-title">
+        <span>—</span>
+        影音娱乐
+        <span>—</span>
+    </h2>
+    <div class="floor-bigImg">
+        <a href="#">
+            <img src="images/bigimg5.jpg" alt="">
+        </a>
+    </div>
+    <div class="plist">
+        <ul class="star-plist clf">
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/yyyl1.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/yyyl2.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <ul class="star-plist clf">
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/yyyl3.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/yyyl4.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <ul class="star-plist clf">
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/yyyl5.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/yyyl6.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--影音娱乐-->
+
+<!--充电设备-->
+<div class="mobile">
+    <h2 class="floor-title">
+        <span>—</span>
+        充电设备
+        <span>—</span>
+    </h2>
+    <div class="floor-bigImg">
+        <a href="#">
+            <img src="images/bigimg6.jpg" alt="">
+        </a>
+    </div>
+    <div class="plist">
+        <ul class="star-plist clf">
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/cdsb1.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/cdsb2.png" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <ul class="star-plist clf">
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/cdsb3.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/cdsb4.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <ul class="star-plist clf">
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/cdsb5.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="star-img">
+                        <img src="images/cdsb6.jpg" alt="">
+                    </div>
+                    <div class="start-title">大神Note3全网通</div>
+                    <div class="product-norms">千元指纹智能手机</div>
+                    <div class="start-price">
+                        <span class="pdot">￥</span>999
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--充电设备-->
+
+<a href="#" class="moreProduct">点击查看更多商品&gt;&gt;</a>
+
+<!--服务-->
+    <div class="service">
+        <div class="ser-cont clf">
+            <div class="contents-item">
+                <div class="icon">7</div>
+                <span>7天无理由退货</span>
+            </div>
+            <div class="contents-item">
+                <div class="icon">15</div>
+                <span>15天免费换货</span>
+            </div>
+            <div class="contents-item">
+                <div class="icon">包</div>
+                <span>满99包邮</span>
+            </div>
+        </div>
+        <div class="phoneNumber">
+            <p>客服热线：<a href="#">400-6822-360</a> 周一到周日 9:00-18:00</p>
+            <p>360商城©2013-2016 版权所有</p>
+        </div>
+    </div>
+<!--服务结束-->
+<div style="height:53px"></div>
+<!--底部导航-->
+    <div class="menu-box">
+        <ul class="menu clf">
+            <li class="on">
+                <a href="#">
+                    <div class="layer-home"></div>
+                    <p>首页</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="layer-category"></div>
+                    <p>分类</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="layer-cart"></div>
+                    <p>购物车</p>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <div class="layer-user"></div>
+                    <p>我</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+<!--底部导航-->
+<a href="#" class="goTop"></a>
 </body>
 </html>
